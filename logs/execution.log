@@ -12,3 +12,13 @@ DATA LOADED INTO SQLITE DATABASE
     FROM employees
     WHERE salary IS NULL
     
+2026-05-07 23:46:51,985 - INFO - Database connection created successfully
+2026-05-07 23:46:52,002 - INFO - DATA LOADED INTO SQLITE DATABASE
+2026-05-07 23:47:29,690 - INFO - Database connection created successfully
+2026-05-07 23:47:29,690 - INFO - Executing query: SELECT COUNT(*) FROM employees
+2026-05-07 23:47:29,690 - INFO - Database connection created successfully
+2026-05-07 23:47:29,690 - INFO - Executing query: 
+    SELECT COUNT(*)
+    FROM employees
+    WHERE salary IS NULL
+    
