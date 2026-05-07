@@ -1,17 +1,24 @@
 import pandas as pd
 
+from utils.logger import logger
+
 
 # =========================
 # VALIDATE NULL VALUES
 # =========================
 
 def validate_nulls(df, column_name):
+
+    logger.info(f"Validating NULL values for column: {column_name}")
+
     null_count = df[column_name].isnull().sum()
 
     assert null_count == 0, (
         f"NULL values found in column '{column_name}'. "
         f"NULL count: {null_count}"
     )
+
+    logger.info(f"NULL validation passed for column: {column_name}")
 
 
 # =========================
