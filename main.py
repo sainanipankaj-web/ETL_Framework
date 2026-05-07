@@ -14,4 +14,4 @@ print(df.isnull().sum())
 
 print("\n \nSalary :")
 print(df["salary"].dtype)
-assert df["salary"].dtype != "float64"
+assert df["salary"].dtype == "float64"
