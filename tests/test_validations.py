@@ -4,6 +4,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 import pandas as pd
+from config.config import DATABASE_NAME, TARGET_FILE_PATH
 
 from validations.data_validations import (
     validate_no_duplicates,
@@ -15,7 +16,7 @@ from validations.data_validations import (
 
 
 # Read transformed file
-df = pd.read_csv("target/transformed_employees.csv")
+df = pd.read_csv(TARGET_FILE_PATH)
 
 
 # =========================

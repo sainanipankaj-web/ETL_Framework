@@ -2,6 +2,8 @@ import pandas as pd
 
 from utils.database_helper import create_connection
 
+from config.config import TARGET_FILE_PATH, TABLE_NAME
+
 
 # =========================
 # VALIDATE SOURCE VS TARGET COUNT
@@ -10,7 +12,7 @@ from utils.database_helper import create_connection
 def validate_source_target_count():
 
     # Read source CSV
-    source_df = pd.read_csv("target/transformed_employees.csv")
+    source_df = pd.read_csv(TARGET_FILE_PATH)
 
     source_count = len(source_df)
 
@@ -18,7 +20,7 @@ def validate_source_target_count():
     conn = create_connection()
 
     target_df = pd.read_sql_query(
-        "SELECT * FROM employees",
+        f"SELECT * FROM {TABLE_NAME}",
         conn
     )
 
@@ -38,13 +40,13 @@ def validate_source_target_count():
 def validate_salary_match():
 
     # Read source CSV
-    source_df = pd.read_csv("target/transformed_employees.csv")
+    source_df = pd.read_csv(TARGET_FILE_PATH)
 
     # Read target DB
     conn = create_connection()
 
     target_df = pd.read_sql_query(
-        "SELECT * FROM employees",
+        f"SELECT * FROM {TABLE_NAME}",
         conn
     )
 

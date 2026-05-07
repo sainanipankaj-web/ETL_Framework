@@ -1,5 +1,6 @@
 import sqlite3
 from utils.logger import logger
+from config.config import DATABASE_NAME
 
 
 # =========================
@@ -9,7 +10,7 @@ from utils.logger import logger
 def create_connection():
 
     try:
-        conn = sqlite3.connect("etl_framework.db")
+        conn = sqlite3.connect(DATABASE_NAME)
 
         logger.info("Database connection created successfully")
 

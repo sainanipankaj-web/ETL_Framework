@@ -1,5 +1,6 @@
 import logging
 import os
+from config.config import LOG_FILE_PATH
 
 
 # Create logs folder if not exists
@@ -14,7 +15,7 @@ if not logger.handlers:
     logger.setLevel(logging.INFO)
 
     # File handler
-    file_handler = logging.FileHandler("logs/execution.log")
+    file_handler = logging.FileHandler(LOG_FILE_PATH)
 
     # Log format
     formatter = logging.Formatter(

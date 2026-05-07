@@ -1,5 +1,5 @@
 from utils.database_helper import execute_query
-
+from config.config import TABLE_NAME
 
 # =========================
 # VALIDATE ROW COUNT
@@ -7,7 +7,7 @@ from utils.database_helper import execute_query
 
 def validate_db_row_count(expected_count):
 
-    query = "SELECT COUNT(*) FROM employees"
+    query = f"SELECT COUNT(*) FROM {TABLE_NAME}"
 
     result = execute_query(query)
 
@@ -25,9 +25,9 @@ def validate_db_row_count(expected_count):
 
 def validate_db_null_salary():
 
-    query = """
+    query = f"""
     SELECT COUNT(*)
-    FROM employees
+    FROM {TABLE_NAME}
     WHERE salary IS NULL
     """
 
