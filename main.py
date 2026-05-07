@@ -1,4 +1,6 @@
 import pandas as pd
+from utils.database_helper import create_connection
+from utils.logger import logger
 
 # Read source file
 df = pd.read_csv("data/source_employees.csv")
@@ -12,6 +14,19 @@ print(len(df))
 print("\nNULL VALUES:")
 print(df.isnull().sum())
 
-print("\n \nSalary :")
-print(df["salary"].dtype)
-assert df["salary"].dtype == "float64"
+# =========================
+# LOAD DATA INTO SQLITE DB
+# =========================
+
+conn = create_connection()
+
+df.to_sql(
+    "employees",
+    conn,
+    if_exists="replace",
+    index=False
+)
+
+logger.info("DATA LOADED INTO SQLITE DATABASE")
+
+conn.close()

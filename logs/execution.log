@@ -1,2 +1,14 @@
 2026-05-07 23:01:33,922 - INFO - Validating NULL values for column: salary
 2026-05-07 23:01:33,928 - INFO - NULL validation passed for column: salary
+2026-05-07 23:21:49,866 - INFO - Database connection created successfully
+2026-05-07 23:22:43,985 - INFO - Database connection created successfully
+2026-05-07 23:22:44,000 - INFO - 
+DATA LOADED INTO SQLITE DATABASE
+2026-05-07 23:31:27,930 - INFO - Database connection created successfully
+2026-05-07 23:31:27,930 - INFO - Executing query: SELECT COUNT(*) FROM employees
+2026-05-07 23:31:28,000 - INFO - Database connection created successfully
+2026-05-07 23:31:28,000 - INFO - Executing query: 
+    SELECT COUNT(*)
+    FROM employees
+    WHERE salary IS NULL
+    
