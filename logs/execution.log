@@ -22,3 +22,27 @@ DATA LOADED INTO SQLITE DATABASE
     FROM employees
     WHERE salary IS NULL
     
+2026-05-07 23:59:51,689 - INFO - Database connection created successfully
+2026-05-07 23:59:51,690 - INFO - Executing query: SELECT COUNT(*) FROM employees
+2026-05-07 23:59:51,694 - INFO - Database connection created successfully
+2026-05-07 23:59:51,695 - INFO - Executing query: 
+    SELECT COUNT(*)
+    FROM employees
+    WHERE salary IS NULL
+    
+2026-05-07 23:59:51,700 - INFO - Database connection created successfully
+2026-05-07 23:59:51,708 - INFO - Database connection created successfully
+2026-05-07 23:59:51,724 - INFO - Validating NULL values for column: salary
+2026-05-07 23:59:51,724 - INFO - NULL validation passed for column: salary
+2026-05-08 00:04:55,320 - INFO - Database connection created successfully
+2026-05-08 00:04:55,320 - INFO - Executing query: SELECT COUNT(*) FROM employees
+2026-05-08 00:04:55,324 - INFO - Database connection created successfully
+2026-05-08 00:04:55,325 - INFO - Executing query: 
+    SELECT COUNT(*)
+    FROM employees
+    WHERE salary IS NULL
+    
+2026-05-08 00:04:55,331 - INFO - Database connection created successfully
+2026-05-08 00:04:55,336 - INFO - Database connection created successfully
+2026-05-08 00:04:55,345 - INFO - Validating NULL values for column: salary
+2026-05-08 00:04:55,345 - INFO - NULL validation passed for column: salary
