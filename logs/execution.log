@@ -72,3 +72,29 @@ DATA LOADED INTO SQLITE DATABASE
 2026-05-08 00:22:21,225 - INFO - Database connection created successfully
 2026-05-08 00:22:21,234 - INFO - Validating NULL values for column: salary
 2026-05-08 00:22:21,234 - INFO - NULL validation passed for column: salary
+2026-05-08 23:36:02,052 - INFO - Validating expected columns
+2026-05-08 23:36:02,053 - INFO - Expected column validation passed
+2026-05-08 23:36:02,056 - INFO - Validating column datatypes
+2026-05-08 23:36:02,215 - INFO - Validating column order
+2026-05-08 23:36:02,215 - INFO - Column order validation passed
+2026-05-08 23:36:51,250 - INFO - Validating expected columns
+2026-05-08 23:36:51,250 - INFO - Expected column validation passed
+2026-05-08 23:36:51,258 - INFO - Validating column datatypes
+2026-05-08 23:36:51,413 - INFO - Validating column order
+2026-05-08 23:36:51,413 - INFO - Column order validation passed
+2026-05-08 23:37:54,327 - INFO - Validating expected columns
+2026-05-08 23:37:54,327 - INFO - Expected column validation passed
+2026-05-08 23:37:54,330 - INFO - Validating column datatypes
+2026-05-08 23:37:54,493 - INFO - Validating column order
+2026-05-08 23:37:54,493 - INFO - Column order validation passed
+2026-05-08 23:38:09,332 - INFO - Validating expected columns
+2026-05-08 23:38:09,332 - INFO - Expected column validation passed
+2026-05-08 23:38:09,345 - INFO - Validating column datatypes
+2026-05-08 23:38:09,510 - INFO - Validating column order
+2026-05-08 23:38:09,510 - INFO - Column order validation passed
+2026-05-08 23:38:15,691 - INFO - Validating expected columns
+2026-05-08 23:38:15,691 - INFO - Expected column validation passed
+2026-05-08 23:38:15,695 - INFO - Validating column datatypes
+2026-05-08 23:38:15,695 - INFO - Datatype validation passed
+2026-05-08 23:38:15,698 - INFO - Validating column order
+2026-05-08 23:38:15,698 - INFO - Column order validation passed
