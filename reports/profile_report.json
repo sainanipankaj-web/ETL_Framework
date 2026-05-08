@@ -1,0 +1,50 @@
+{
+    "total_rows": 4,
+    "total_columns": 5,
+    "columns": [
+        "emp_id",
+        "name",
+        "department",
+        "salary",
+        "bonus"
+    ],
+    "datatypes": {
+        "emp_id": "int64",
+        "name": "str",
+        "department": "str",
+        "salary": "int64",
+        "bonus": "float64"
+    },
+    "null_counts": {
+        "emp_id": 0,
+        "name": 0,
+        "department": 0,
+        "salary": 0,
+        "bonus": 0
+    },
+    "duplicate_rows": 0,
+    "unique_counts": {
+        "emp_id": 4,
+        "name": 4,
+        "department": 3,
+        "salary": 4,
+        "bonus": 4
+    },
+    "numeric_stats": {
+        "emp_id": {
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.5
+        },
+        "salary": {
+            "min": 40000.0,
+            "max": 70000.0,
+            "mean": 55000.0
+        },
+        "bonus": {
+            "min": 4000.0,
+            "max": 7000.0,
+            "mean": 5500.0
+        }
+    }
+}

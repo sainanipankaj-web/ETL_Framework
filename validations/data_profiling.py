@@ -1,5 +1,6 @@
 import pandas as pd
 
+import json
 from utils.logger import logger
 
 
@@ -70,3 +71,19 @@ def generate_data_profile(df):
     logger.info("Data profiling completed")
 
     return profile
+
+# =========================
+# EXPORT PROFILE REPORT
+# =========================
+
+def export_profile_report(profile, output_path):
+
+    logger.info("Exporting profile report")
+
+    with open(output_path, "w") as json_file:
+
+        json.dump(profile, json_file, indent=4)
+
+    logger.info(
+        f"Profile report exported successfully: {output_path}"
+    )

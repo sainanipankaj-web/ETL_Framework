@@ -120,3 +120,7 @@ DATA LOADED INTO SQLITE DATABASE
 2026-05-09 00:18:20,584 - INFO - Data profiling completed
 2026-05-09 00:19:01,233 - INFO - Generating data profile
 2026-05-09 00:19:01,250 - INFO - Data profiling completed
+2026-05-09 00:29:07,638 - INFO - Generating data profile
+2026-05-09 00:29:07,638 - INFO - Data profiling completed
+2026-05-09 00:29:07,638 - INFO - Exporting profile report
+2026-05-09 00:29:07,638 - INFO - Profile report exported successfully: reports/profile_report.json

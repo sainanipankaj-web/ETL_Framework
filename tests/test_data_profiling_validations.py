@@ -7,8 +7,10 @@ import pandas as pd
 from config.config import DATABASE_NAME, TARGET_FILE_PATH
 
 from validations.data_profiling import (
-    generate_data_profile
+    generate_data_profile,
+    export_profile_report
 )
+
 
 # =========================
 # DATA PROFILING TEST
@@ -16,10 +18,13 @@ from validations.data_profiling import (
 
 def test_generate_data_profile():
 
-    df = pd.read_csv(TARGET_FILE_PATH)
+    df = pd.read_csv("target/transformed_employees.csv")
+
     profile = generate_data_profile(df)
 
-    print("\nDATA PROFILE:")
-    print(profile)
+    export_profile_report(
+        profile,
+        "reports/profile_report.json"
+    )
 
-    assert profile["total_rows"] > 0, "Total rows should be greater than 0"
+    assert profile["total_rows"] > 0
