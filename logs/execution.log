@@ -98,3 +98,25 @@ DATA LOADED INTO SQLITE DATABASE
 2026-05-08 23:38:15,695 - INFO - Datatype validation passed
 2026-05-08 23:38:15,698 - INFO - Validating column order
 2026-05-08 23:38:15,698 - INFO - Column order validation passed
+2026-05-08 23:53:53,541 - INFO - Generating data profile
+2026-05-08 23:53:53,571 - INFO - Data profiling completed
+2026-05-08 23:56:00,958 - INFO - Generating data profile
+2026-05-08 23:56:00,961 - INFO - Data profiling completed
+2026-05-08 23:59:54,010 - INFO - Generating data profile
+2026-05-08 23:59:54,010 - INFO - Data profiling completed
+2026-05-09 00:00:17,434 - INFO - Generating data profile
+2026-05-09 00:00:17,444 - INFO - Data profiling completed
+2026-05-09 00:02:20,813 - INFO - Generating data profile
+2026-05-09 00:02:20,817 - INFO - Data profiling completed
+2026-05-09 00:02:37,037 - INFO - Generating data profile
+2026-05-09 00:02:37,053 - INFO - Data profiling completed
+2026-05-09 00:09:26,035 - INFO - Generating data profile
+2026-05-09 00:09:26,037 - INFO - Data profiling completed
+2026-05-09 00:14:18,467 - INFO - Generating data profile
+2026-05-09 00:14:18,467 - INFO - Data profiling completed
+2026-05-09 00:17:57,077 - INFO - Generating data profile
+2026-05-09 00:17:57,077 - INFO - Data profiling completed
+2026-05-09 00:18:20,584 - INFO - Generating data profile
+2026-05-09 00:18:20,584 - INFO - Data profiling completed
+2026-05-09 00:19:01,233 - INFO - Generating data profile
+2026-05-09 00:19:01,250 - INFO - Data profiling completed
