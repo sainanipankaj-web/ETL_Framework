@@ -1,0 +1,9 @@
+{
+    "pipeline_name": "employee_etl_pipeline",
+    "start_time": "2026-05-09 12:35:47.093558",
+    "status": "SUCCESS",
+    "end_time": "2026-05-09 12:35:47.132044",
+    "duration_seconds": 0.038486,
+    "total_records": 4,
+    "failed_records": 0
+}

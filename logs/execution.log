@@ -124,3 +124,54 @@ DATA LOADED INTO SQLITE DATABASE
 2026-05-09 00:29:07,638 - INFO - Data profiling completed
 2026-05-09 00:29:07,638 - INFO - Exporting profile report
 2026-05-09 00:29:07,638 - INFO - Profile report exported successfully: reports/profile_report.json
+2026-05-09 12:34:46,411 - INFO - Pipeline started: employee_etl_pipeline
+2026-05-09 12:34:46,411 - INFO - Pipeline execution started
+2026-05-09 12:34:46,417 - INFO - ETL process started
+2026-05-09 12:34:46,434 - INFO - Source CSV loaded successfully
+2026-05-09 12:34:46,443 - INFO - NULL salary records removed
+2026-05-09 12:34:46,446 - INFO - Names converted to uppercase
+2026-05-09 12:34:46,446 - INFO - Bonus column added
+2026-05-09 12:34:46,454 - INFO - Transformed CSV saved successfully
+2026-05-09 12:34:46,454 - INFO - Total transformed records: 4
+2026-05-09 12:34:46,454 - INFO - Extract and transform completed
+2026-05-09 12:34:46,454 - INFO - Database load process started
+2026-05-09 12:34:46,460 - INFO - Database connection created successfully
+2026-05-09 12:34:46,485 - INFO - Data loaded into database successfully
+2026-05-09 12:34:46,493 - INFO - Database load completed
+2026-05-09 12:34:46,493 - INFO - Pipeline completed with status: SUCCESS
+2026-05-09 12:34:46,496 - INFO - Audit report exported: reports/audit_report.json
+2026-05-09 12:34:46,496 - INFO - Audit report generated successfully
+2026-05-09 12:35:17,081 - INFO - Pipeline started: employee_etl_pipeline
+2026-05-09 12:35:17,081 - INFO - Pipeline execution started
+2026-05-09 12:35:17,081 - INFO - ETL process started
+2026-05-09 12:35:17,097 - INFO - Source CSV loaded successfully
+2026-05-09 12:35:17,097 - INFO - NULL salary records removed
+2026-05-09 12:35:17,097 - INFO - Names converted to uppercase
+2026-05-09 12:35:17,097 - INFO - Bonus column added
+2026-05-09 12:35:17,097 - INFO - Transformed CSV saved successfully
+2026-05-09 12:35:17,097 - INFO - Total transformed records: 4
+2026-05-09 12:35:17,097 - INFO - Extract and transform completed
+2026-05-09 12:35:17,097 - INFO - Database load process started
+2026-05-09 12:35:17,097 - INFO - Database connection created successfully
+2026-05-09 12:35:17,120 - INFO - Data loaded into database successfully
+2026-05-09 12:35:17,120 - INFO - Database load completed
+2026-05-09 12:35:17,120 - INFO - Pipeline completed with status: SUCCESS
+2026-05-09 12:35:17,128 - INFO - Audit report exported: reports/audit_report.json
+2026-05-09 12:35:17,128 - INFO - Audit report generated successfully
+2026-05-09 12:35:47,093 - INFO - Pipeline started: employee_etl_pipeline
+2026-05-09 12:35:47,093 - INFO - Pipeline execution started
+2026-05-09 12:35:47,094 - INFO - ETL process started
+2026-05-09 12:35:47,096 - INFO - Source CSV loaded successfully
+2026-05-09 12:35:47,096 - INFO - NULL salary records removed
+2026-05-09 12:35:47,096 - INFO - Names converted to uppercase
+2026-05-09 12:35:47,096 - INFO - Bonus column added
+2026-05-09 12:35:47,096 - INFO - Transformed CSV saved successfully
+2026-05-09 12:35:47,096 - INFO - Total transformed records: 4
+2026-05-09 12:35:47,096 - INFO - Extract and transform completed
+2026-05-09 12:35:47,096 - INFO - Database load process started
+2026-05-09 12:35:47,110 - INFO - Database connection created successfully
+2026-05-09 12:35:47,132 - INFO - Data loaded into database successfully
+2026-05-09 12:35:47,132 - INFO - Database load completed
+2026-05-09 12:35:47,132 - INFO - Pipeline completed with status: SUCCESS
+2026-05-09 12:35:47,140 - INFO - Audit report exported: reports/audit_report.json
+2026-05-09 12:35:47,140 - INFO - Audit report generated successfully
